@@ -1,0 +1,131 @@
+/*
+	map
+*/
+#map {
+  height: 100vh;
+}
+
+
+/*
+	infoWindow
+*/
+.place-name {
+	color: red;
+	font-size: 12px;
+}
+
+.place-address {
+	font-size: 10px;
+}
+
+.place-addressDetail {
+	font-size: 10px;
+}
+.place-checkin{
+  font-size: 10px;
+}
+
+/*
+	filter
+*/
+.main-filter-container {
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	background-color :black;
+	z-index: 99;
+	height: 30vh;
+	/* overflow: auto; */
+	opacity: 0.8;
+}
+
+.main-filter-container h1 {
+	color: red;
+	text-align: center;
+	font-size: 33px;
+	margin: 10px 0 10px 0;
+}
+
+.input-filter-bar {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.main-filter-container label {
+	font-size: 20px;
+	margin-right: 20px;
+  color: white;
+}
+
+.main-filter-container input {
+	width:200px;
+}
+
+.filter-list li {
+	padding:  0 10px;
+	font-weight: bold;
+	cursor: pointer;
+  color: white;
+}
+
+
+/*
+	@media query min-width: 480px;
+*/
+@media screen and (min-width: 480px) {
+	.place-name {
+		font-size: 12px;
+	}
+
+	.place-address {
+		font-size: 10px;
+	}
+
+	.place-addressDetail {
+		font-size: 10px;
+	}
+  .place-checkin{
+    font-size: 10px;
+  }
+
+	.filter-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.filter-list li {
+		width: 45%;
+	}
+}
+
+
+/*
+	@media query min-width: 640px;
+*/
+@media screen and (min-width: 640px) {
+	.filter-list {
+		width: 640px;
+		margin: auto;
+	}
+	.main-filter-container {
+		height: 25vh;
+	}
+}
+
+
+/*
+	@media query min-width: 1000px;
+*/
+@media screen and (min-width: 1000px) {
+	.filter-list {
+		width: 960px;
+		margin: auto;
+	}
+
+	.filter-list li {
+		width: 30%;
+	}
+}
