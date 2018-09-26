@@ -9,3 +9,5 @@ This project makes use of google maps API show places of my hometown Raipur. One
 2)Run the server using the command "npm start".
 3)The app will automatically open on the default browser.
 4)You can also access the app on http://localhost:3000 on you local machine.
+
+9263e20f94b816748392f9d5d220623b064922cc
