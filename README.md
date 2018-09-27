@@ -10,4 +10,4 @@ This project makes use of google maps API show places of my hometown Raipur. One
 3)The app will automatically open on the default browser.
 4)You can also access the app on http://localhost:3000 on you local machine.
 
-atom://teletype/portal/30dcac27-70c0-453e-9b34-ee4b5528db3a
+atom://teletype/portal/d10428fe-a51f-45be-b209-ac476d924b73
